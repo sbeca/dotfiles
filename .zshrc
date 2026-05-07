@@ -45,6 +45,8 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 # Add Python version bundled with Apple's command line tools to $PATH
 export PATH="$PATH:$HOME/Library/Python/3.9/bin"
+# Add LM Studio CLI to $PATH
+export PATH="$HOME/.lmstudio/bin:$PATH"
 
 # Bash-style time output
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
