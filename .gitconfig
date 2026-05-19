@@ -1,0 +1,20 @@
+[user]
+	name = Scott Beca
+	email = scott.beca@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[init]
+	defaultBranch = main
+[web]
+	browser = google-chrome
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
